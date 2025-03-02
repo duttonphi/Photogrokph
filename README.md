@@ -1,8 +1,17 @@
 ## PhotoGrokfff - Tool to Wrangle Your Digitized Photographs
 
-A Python GUI app named "PhotoGrokfff" using tkinter and PIL for photo management. 
+A Python GUI app used for wrangling scanned "multi-photos" (physical photographs laid out in a grid)
+
+If you scan multiple (up  to 4) physical photographs with your phone then likely need PhotoGrokfff!!
+
+Split your 2x2 grid source image into individual photo files.
+
+![PhotoGrokfff user interface](PhotoGrokfff.png "PhotoGrokfff")
+
+Why you need this?   If you are using a phone to manually scan hundreds of photos, then save time by scanning 4 at a time then use this tool to break out the logical content into their own files.
 
 Features:
+- A simple, single file python script.
 - Load images from a folder (JPG/PNG/JPEG), ignoring hidden files.
 - Display thumbnails (max 300px, aspect-preserving) in a fixed-height (350px) black container.
 - Buttons: 
@@ -29,5 +38,5 @@ $ pip install pillow tkinter pyyaml
 ## Run
 
 ```bash
-$  python photogrokfff.py /path/to/images
+$ python photogrokfff.py /path/to/images
 ```
