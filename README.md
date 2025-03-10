@@ -1,4 +1,4 @@
-## PhotoGrokfff - Tool to Wrangle Your Digitized Photographs
+## PhotoGrokph - Tool to Wrangle Your Digitized Photographs
 
 A Python GUI app used for wrangling scanned "multi-photos" (physical photographs laid out in a grid)
 
